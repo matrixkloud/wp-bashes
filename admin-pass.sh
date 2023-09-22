@@ -14,7 +14,7 @@ do
     
     if [ $? -eq 0 ]; then
         echo "Password updated for user: $USER"
-        echo "$USER, $NEW_PASSWORD" >> password_log.csv
+        echo "$USER, $NEW_PASSWORD"
     else
         echo "Failed to update password for user: $USER"
     fi
