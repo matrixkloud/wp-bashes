@@ -2,3 +2,7 @@
 
 ## Change admin Password
 ```bash -c "$(curl -fsSL https://raw.githubusercontent.com/matrixkloud/wp-bashes/main/admin-pass.sh)"```
+
+## Single user Password change  // Change email based on need
+```bash -c "$(curl -fsSL https://raw.githubusercontent.com/matrixkloud/wp-bashes/main/single-user-pass.sh) user@email.com"```
+
