@@ -1,6 +1,6 @@
-# wp-bashes || RUN from website root directory, like htdocs/public_html as a file owner
+# wp-bashes 
 
-## Change admin Password
+## Change admin Password || RUN from website root directory, like htdocs/public_html as a file owner
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/matrixkloud/wp-bashes/main/admin-pass.sh)"
 ```
