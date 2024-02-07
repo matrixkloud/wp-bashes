@@ -12,3 +12,9 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/matrixkloud/wp-bashes/ma
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/matrixkloud/wp-bashes/main/find-gp-sites.sh)"
 ```
+
+## Configure SWAP memory into debian/ubuntu system
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/matrixkloud/bash/main/aws-ubuntu/swap.sh)"
+```
