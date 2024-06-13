@@ -13,8 +13,13 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/matrixkloud/wp-bashes/ma
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/matrixkloud/wp-bashes/main/find-gp-sites.sh)"
 ```
 
-## Configure SWAP memory into debian/ubuntu system
+## Configure SWAP memory into Debian/ubuntu system
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/matrixkloud/bash/main/aws-ubuntu/swap.sh)"
+```
+
+## Configure wp CLI into any Linux Distribution
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/matrixkloud/wp-bashes/main/wpcli.sh)"
 ```
