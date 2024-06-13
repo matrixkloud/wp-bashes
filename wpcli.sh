@@ -5,7 +5,7 @@ VERSION="2.9.0"
 sudo rm /usr/local/bin/wp
 
 # Download the specific version of WP-CLI
-curl -O https://github.com/wp-cli/wp-cli/releases/download/v$VERSION/wp-cli-$VERSION.phar
+curl -L -o wp-cli-$VERSION.phar https://github.com/wp-cli/wp-cli/releases/download/v$VERSION/wp-cli-$VERSION.phar
 
 # Verify the Phar file
 php wp-cli-$VERSION.phar --info
