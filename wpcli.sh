@@ -16,3 +16,4 @@ chmod +x wp-cli-$VERSION.phar
 # Move the Phar file to /usr/local/bin
 sudo mv wp-cli-$VERSION.phar /usr/local/bin/wp
 
+echo "wp cli version $VERSION installed"
