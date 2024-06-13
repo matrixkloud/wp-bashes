@@ -1,5 +1,5 @@
 # Set the desired version number
-VERSION="2.9.0"
+VERSION="2.10.0"
 
 # Remove the existing WP-CLI (if applicable)
 sudo rm /usr/local/bin/wp
